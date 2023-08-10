@@ -5,7 +5,7 @@ spring:
     url: jdbc:mysql://petstore-mysql22:3306/pets
 
   flyway:
-    url: jdbc:mysql://petstore-mysql:3306/mysql
+    url: jdbc:mysql://petstore-mysql22:3306/mysql
     create-schemas: true
     schemas: pets
     user: root
