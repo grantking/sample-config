@@ -2,10 +2,10 @@ spring:
   datasource:
     username: root
     password: "{cipher}25122a5581199863376bdaf5e78b3570f14f031789fe8e550e61684bf6975125"
-    url: jdbc:mysql://shared-mysql.postman-data:3306/pets
+    url: jdbc:mysql://shared-mysql:3306/pets
 
   flyway:
-    url: jdbc:mysql://shared-mysql.postman-data:3306/mysql
+    url: jdbc:mysql://shared-mysql:3306/mysql
     create-schemas: true
     schemas: pets
     user: root
